@@ -1,0 +1,116 @@
+:root {
+    --paper: #f4f1ea;
+    --ink: #0a0a0a;
+    --accent: #d32f2f;
+    --font-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { 
+    background: var(--paper); 
+    color: var(--ink); 
+    font-family: var(--font-base);
+    line-height: 1.2;
+    padding: 40px;
+}
+
+/* --- ASYMMETRIC GRID SYSTEM --- */
+.container { 
+    max-width: 1400px; 
+    margin: 0 auto; 
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 100px;
+}
+
+/* --- TYPOGRAPHY FIRST NAVIGATION --- */
+.navbar {
+    position: sticky;
+    top: 40px;
+    height: fit-content;
+}
+
+.logo { 
+    font-size: 3rem; 
+    font-weight: 900; 
+    line-height: 1; 
+    margin-bottom: 50px; 
+}
+
+.nav-links { list-style: none; }
+.nav-links li { margin-bottom: 15px; }
+.nav-links a { 
+    text-decoration: none; 
+    color: var(--ink); 
+    font-weight: 700; 
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+/* --- HERO: BOLD & RAW --- */
+.hero-section { padding-top: 0; }
+.hero-section h1 {
+    font-size: 12vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    margin-bottom: 20px;
+}
+
+/* --- GALLERY: RIGID GRID --- */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.gallery-item {
+    aspect-ratio: 1/1;
+    background: #e0ddd6;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+/* --- TABLES: INDUSTRIAL STYLE --- */
+table {
+    width: 100%;
+    border-top: 4px solid var(--ink);
+    border-bottom: 4px solid var(--ink);
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding: 20px 0;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+    font-weight: 600;
+}
+
+/* --- BUTTONS: RAW GEOMETRY --- */
+.filter-btn {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 15px 30px;
+    border: none;
+    font-weight: 900;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.filter-btn.active {
+    background: var(--accent);
+}
+
+/* --- RESPONSIVE SHIFT --- */
+@media (max-width: 900px) {
+    .container { grid-template-columns: 1fr; }
+    .hero-section h1 { font-size: 4rem; }
+}
