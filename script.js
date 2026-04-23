@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const headerHTML = `
     <div style="background: #f8f9fa; border-bottom: 1px solid #ddd; padding: 5px 0; font-size: 0.8rem; color: #002147;">
         <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: flex-end; gap: 20px; padding: 0 20px;">
-            <span>📧 utopiaschool1@gmail.com</span>
-            <span>📞 +91 9437526772</span>
+            <span>📧 utopiavillageinfo@gmail.com</span>
+            <span>📞 +91 9516595165</span>
         </div>
     </div>
 
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <h3 style="color: #D4AF37; margin: 0;">UTOPIA HR. SEC. SHIKSHA NIKETAN</h3>
                 </div>
                 <p style="font-size: 0.85rem; opacity: 0.7; line-height: 1.6;">
-                    Gudari, Rayagada, Odisha.<br>
+                    AT- SATNA,PO- SATNA,PS- SATNA,STATE-MADHYA PRADESH,DIST.-SATNA,TEHSIL/TALUKA-RAGHURAJNAGAR,485001<br>
                     Providing quality education and fostering character since inception.
                 </p>
             </div>
@@ -62,13 +62,13 @@ document.addEventListener("DOMContentLoaded", () => {
             <div style="flex: 1; min-width: 200px;">
                 <h4 style="color: #D4AF37; margin-bottom: 15px;">Connect With Us</h4>
                 <p style="font-size: 0.85rem; opacity: 0.7;">
-                    📧 utopiaschool1@gmail.com<br>
-                    📞 +91 9437526772
+                    📧  utopiavillageinfo@gmail.com<br>
+                    📞 +91 9516595165
                 </p>
             </div>
         </div>
         <div style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.8rem; opacity: 0.6;">
-            &copy; 2026 UTOPIA English Medium School. All Rights Reserved.
+            &copy; 2026 UTOPIA Hr. Sec. Shiksha Niketan. All Rights Reserved.
         </div>
     </footer>`;
 
