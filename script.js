@@ -15,11 +15,11 @@ document.addEventListener("DOMContentLoaded", () => {
     <nav class="main-nav" style="background: #002147; color: white; padding: 1rem 0; border-bottom: 4px solid #D4AF37;">
         <div class="nav-container" style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 20px;">
             <div class="logo" style="display: flex; align-items: center; gap: 15px;">
-                <img src="images/log.png" alt="School Logo" style="height: 60px; width: auto; border-radius: 50%;">
+                <img src="image/LOGO.jpeg" alt="School Logo" style="height: 60px; width: auto; border-radius: 50%;">
                 
                 <div class="logo-text">
-                    <h1 style="font-family: serif; color: #D4AF37; font-size: 1.4rem; margin: 0; letter-spacing: 1px;">UTOPIA</h1>
-                    <p style="font-size: 0.7rem; text-transform: uppercase; margin: 0; opacity: 0.8;">English Medium School</p>
+                    <h1 style="font-family: serif; color: #D4AF37; font-size: 1.4rem; margin: 0; letter-spacing: 1px;">UTOPIA </h1>
+                    <p style="font-size: 0.7rem; text-transform: uppercase; margin: 0; opacity: 0.8;">HR. SEC. SHIKSHA NIKETAN</p>
                 </div>
             </div>
             <ul class="nav-links" style="display: flex; list-style: none; gap: 20px; margin: 0;">
@@ -41,8 +41,8 @@ document.addEventListener("DOMContentLoaded", () => {
             
             <div style="flex: 1; min-width: 250px;">
                 <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
-                    <img src="images/log.png" alt="School Logo" style="height: 40px; width: auto;">
-                    <h3 style="color: #D4AF37; margin: 0;">UTOPIA EMS</h3>
+                    <img src="image/LOGO.jpeg" alt="School Logo" style="height: 40px; width: auto;">
+                    <h3 style="color: #D4AF37; margin: 0;">UTOPIA HR. SEC. SHIKSHA NIKETAN</h3>
                 </div>
                 <p style="font-size: 0.85rem; opacity: 0.7; line-height: 1.6;">
                     Gudari, Rayagada, Odisha.<br>
