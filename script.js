@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <li><a href="facilities.html" style="color: white; text-decoration: none; font-weight: 600;">Facilities</a></li>
                 <li><a href="gallery.html" style="color: white; text-decoration: none; font-weight: 600;">Gallery</a></li>
                 <li><a href="admission.html" style="color: white; text-decoration: none; font-weight: 600;">Admission</a></li>
-                <li><a href="disclosure.html" style="color: white; text-decoration: none; font-weight: 600;">Disclosure</a></li>
+                <li><a href="disclosure.html" style="color: white; text-decoration: none; font-weight: 600;">Mandatory Disclosure</a></li>
                 <li><a href="contact.html" style="color: white; text-decoration: none; font-weight: 600;">Contact</a></li>
             </ul>
         </div>
